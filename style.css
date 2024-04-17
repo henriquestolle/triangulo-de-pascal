@@ -1,0 +1,54 @@
+@import "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+.title {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+
+
+
+/* Parte do footer */
+
+footer {
+    padding: 10%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(27, 29, 32);
+}
+
+.copy {
+    margin-bottom: 5%;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+span {
+    margin: 0% 3%;
+}
+
+img {
+    height: 5vh;
+    width: 10vw;
+    border-radius: 50%;
+}
